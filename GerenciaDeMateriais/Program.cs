@@ -8,7 +8,7 @@ namespace GerenciaDeMateriais
         static void Main(string[] args)
         {
             Produto p = new Produto();
-            Console.WriteLine("Entre os dados do produto:");
+            Console.WriteLine("Entre com os dados do produto:");
             Console.WriteLine("Nome: ");
             p.Nome = Console.ReadLine();
             Console.Write("Preço: ");
