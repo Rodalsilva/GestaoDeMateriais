@@ -11,5 +11,10 @@
             return Preco * Quantidade;
         }
 
+        public override string ToString()
+        {
+            return Nome + "$" + Preco;
+        }
+
     }
 }

@@ -16,7 +16,7 @@ namespace GerenciaDeMateriais
             Console.WriteLine("Quantidade no estoque: ");
             p.Quantidade = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Dados do produto: " + p.Nome +"$" + p.Preco);
+            Console.WriteLine("Dados do produto: " + p);
         }
     }
 }
